@@ -1,0 +1,11 @@
+[project]
+name = "spicedb_validation"
+version = "0.0.1"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["spicedb_validation"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"spicedb_validation.dll" = ["*.so"]
